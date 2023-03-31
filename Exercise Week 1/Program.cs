@@ -1,26 +1,8 @@
-﻿//Console.WriteLine("Enter Value 1 - 10: ");
-//int num = int.Parse(Console.ReadLine());
-//int max = 9;
-
-//if (num == 1)
-//{
-//    Console.WriteLine("Beep!");
-//}
-//else if (num == 2)
-//{
-//    Console.WriteLine("Boop!");
-//}
-//else if (num % 3 == 0)
-//{
-//    Console.WriteLine("I'm sorry, Dave. I'm afraid I can't do that.");
-//}
-//else
-//{
-//    Console.WriteLine("Great! Try again!");
-//}
-
+﻿
 Console.WriteLine("Enter a Value ");
 int max = int.Parse(Console.ReadLine());
+string s = "Beep";
+s = s.Replace('1', '2');
 
 for (int i = 0; i < max; i++)
 
@@ -40,8 +22,10 @@ for (int i = 0; i < max; i++)
         Console.WriteLine("I'm sorry, Dave. I'm afraid I can't do that. ");
         continue;
     }
-    Console.WriteLine(i);
-
+    else
+    {
+        Console.WriteLine(i);
+    }
 }
 
 
