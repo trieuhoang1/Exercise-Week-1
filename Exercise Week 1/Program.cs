@@ -12,7 +12,7 @@ namespace Exercise
             Console.WriteLine("Enter a Value ");
             int max = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i < max; i++)
+            for (int i = 0; i <= max; i++)
 
             {
                 if (i % 3 == 0)
