@@ -32,7 +32,6 @@ namespace Exercise
                     Console.WriteLine(i);
                 }
             }
-             Console.ReadLine();
         }
     }
 }
