@@ -25,7 +25,7 @@ namespace Exercise
                 }
                 else if (i.ToString().Contains("2"))
                 {
-                    Console.WriteLine("Beep!");
+                    Console.WriteLine("Boop!");
                 }
                 else
                 {
